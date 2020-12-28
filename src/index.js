@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-// import Welcome from './Welcome';
-import { Clock } from './Clock';
-import { Count } from './Count';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <div>
-    <Clock />
-    <Count />
+    <App />
   </div>  
   , document.getElementById('root'))
 ;
